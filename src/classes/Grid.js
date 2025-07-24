@@ -73,6 +73,11 @@ class Grid {
             (invader) => invader.position.x <= 0
         );
     }
+
+    getRandomInvander() {
+        const index = Math.floor(Math.random() * this.invaders.length);
+        return this.invaders[index];
+    }
 }
 
 export default Grid;
