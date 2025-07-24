@@ -1,3 +1,5 @@
+import Grid from "./classes/Grid.js";
+import Invader from "./classes/Invader.js";
 import Player from "./classes/Player.js";
 import Projectile from "./classes/Projectile.js";
 
@@ -10,7 +12,9 @@ canvas.height = window.innerHeight;
 ctx.imageSmoothingEnabled = false;
 
 const player = new Player(canvas.width, canvas.height);
+const grid = new Grid(3, 6);
 const playerProjectiles = [];
+
 
 const keys = {
     left: false,
@@ -41,6 +45,9 @@ const gameLoop = () => {
 
     drawProjectiles();
     clearPorjectiles();
+
+    grid.draw(ctx);
+    grid.update();
     
     ctx.save();
 
