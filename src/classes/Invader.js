@@ -57,6 +57,15 @@ class Invader {
         projectiles.push(p);
     }
 
+    hit(projectTile) {
+        return (
+            projectTile.position.x >= this.position.x &&
+            projectTile.position.x <= this.position.x + this.width &&
+            projectTile.position.y >= this.position.y &&
+            projectTile.position.y <= this.position.y + this.height
+        );
+    }
+
 }
 
 export default Invader;
