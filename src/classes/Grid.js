@@ -22,7 +22,7 @@ class Grid {
                     this.invadersVelocity,
                     {
                         x: col * 50 + 20,
-                        y: row * 37 + 20,
+                        y: row * 37 + 120,
                     }
                 );
 
