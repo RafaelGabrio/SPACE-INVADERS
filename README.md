@@ -25,9 +25,9 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="https://i.imgur.com/l9diPAt.gif alt="GIF de demonstração de nave atirando width="100%">
-    <img src="https://i.imgur.com/mvcp6iU.png" alt="Tela de Game Over" width="49.8%">
-    <img src="https://i.imgur.com/CTgoD5j.png" alt="Nave atirando" width="49.8%">
+    <img src="https://i.imgur.com/l9diPAt.gif alt="GIF de demonstração de nave atirando width="800px">
+    <img src="https://i.imgur.com/mvcp6iU.png" alt="Tela de Game Over" width="398px">
+    <img src="https://i.imgur.com/CTgoD5j.png" alt="Nave atirando" width="398px">
 </p>
 
 <h2 id="tech">💻 Technologies</h2>
